@@ -1,0 +1,51 @@
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navigation Bar  */
+nav{
+    margin-left: 8 rem;
+    margin-right: 8 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: cester;
+}
+.travel-logo{
+    align-items: center;
+    display: flex;
+    gap: 1 rem;
+    cursor: pointer;
+}
+.logo{
+    width: 48px;
+    height: 56.008px;
+}
+.text{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.optional-bar{
+ margin-top: 53 px;
+    display: flex;
+    gap: 44px;
+    list-style: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18 px;
+}
+.optional-bar-icon{
+    display: none;
+}
+.optional-bar .home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.Trip{
+    color: #131318;
+}
