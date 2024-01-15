@@ -82,7 +82,6 @@ nav{
     font-weight: 400;
     line-height: 26px;
   }
-  
   .search-option {
     display: inline-flex;
     padding: 16px;
@@ -123,5 +122,50 @@ nav{
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
+  }
+
+  /* Populer Tours */
+  .popular-section {
+    margin: 80px 128px;
+    display: flex;
+    gap: 32px;
+  }
+  .popular-title {
+    color: #131318;
+    
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .pupular-discription {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .popular-points {
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .populer-button {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
   }
   
