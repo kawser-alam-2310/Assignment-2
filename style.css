@@ -24,7 +24,6 @@ nav{
 }
 .text{
     color: #FF5400;
-    font-family: Mulish;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
@@ -36,7 +35,6 @@ nav{
     gap: 44px;
     list-style: none;
     color: #424247;
-    font-family: Mulish;
     font-size: 18 px;
 }
 .optional-bar-icon{
@@ -65,7 +63,6 @@ nav{
   }
   .banner-index {
     color: #FFF;
-    font-family: Mulish;
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
@@ -90,7 +87,6 @@ nav{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -120,7 +116,6 @@ nav{
     border-radius: 8px;
     border: none;
     text-align: center;
-    font-family: Mulish;
     font-size: 16px;
   }
 
@@ -132,8 +127,6 @@ nav{
   }
   .popular-title {
     color: #131318;
-    
-    font-family: Mulish;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -141,7 +134,6 @@ nav{
   }
   .pupular-discription {
     color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -149,7 +141,6 @@ nav{
   }
   .popular-points {
     color: rgba(19, 19, 24, 0.7);
-    font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -164,8 +155,127 @@ nav{
     background: #ff5400;
     color: #fff;
     text-align: center;
-    font-family: Mulish;
     font-size: 20px;
     font-weight: 800;
   }
-  
+
+  /* destinations */
+.destination-header {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+  .destination-discription {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+  .destination-images {
+    margin: 0px 128px;
+  }
+  .destination-images > div {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .destination-image-1,
+  .destination-image-2,
+  .destination-image-3 {
+    display: flex;
+    gap: 16px;
+  }
+  .country-name-1 {
+    background-image: url("images/Rectangle\ 5.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-2 {
+    background-image: url("images/Rectangle\ 8.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-3 {
+    background-image: url("images/Rectangle\ 6.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-4 {
+    background-image: url("images/Rectangle\ 7.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-5 {
+    background-image: url("images/Rectangle\ 9.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-6 {
+    background-image: url("images/Rectangle\ 11.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-7 {
+    background-image: url("images/Rectangle\ 10.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    border: 3px #FFF;
+  }
+  .country-name-1:hover,
+  .country-name-2:hover,
+  .country-name-3:hover,
+  .country-name-4:hover,
+  .country-name-5:hover,
+  .country-name-6:hover,
+  .country-name-7:hover{
+    border: 3px solid blueviolet;}
