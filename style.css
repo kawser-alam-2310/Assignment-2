@@ -14,6 +14,10 @@ nav {
     align-items: center;
 }
 
+.favicon {
+    display: none;
+}
+
 .travel-logo {
     align-items: center;
     display: flex;
@@ -487,8 +491,8 @@ nav {
 
 .text-2 {
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 65%;
+    left: 60%;
     border-radius: 16px;
     background: #ff5400;
     transform: rotate(-19.628deg);
@@ -619,25 +623,25 @@ hr {
 
 
 /* Responsive media query style */
-/* dext top device */
-@media screen and (max-width: 992px) {
+/* dextop device */
+@media screen and (min-width: 992px) and (max-width: 1365px) {
 
     /* Navigation Bar Section */
     nav {
-        margin: 20px;
+        margin: auto;
         width: 950px;
         background-size: 100%;
     }
 
     /* Banner Section  */
     .banner {
-        margin: 20px;
+        margin: auto;
         width: 950px;
     }
 
     /* Populer Tours Section */
     .popular-section {
-        margin: 20px;
+        margin: auto;
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -654,9 +658,20 @@ hr {
         width: 950px;
     }
 
+    .country-name-3,
+    .country-name-4,
+    .country-name-5,
+    .country-name-6,
+    .country-name-7 {
+        background-size: cover;
+        width: 573px;
+        background-position: center;
+    }
+
     .destination-images {
         margin-left: 0px;
         margin-right: 0px;
+        margin: auto;
         width: 950px;
     }
 
@@ -683,17 +698,21 @@ hr {
 
     /* Newslater Section */
     .news-section {
-        margin: 115px 20px;
+        margin: 115px auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 950px;
     }
+    .text-2 {
+        top: 65%;
+        left: 60%;
+    }
 
     /* Bonus Section */
     .featured {
         flex-direction: column-reverse;
-        margin: 150px 20px;
+        margin: 150px auto;
         align-items: center;
         width: 950px;
         text-align: center;
@@ -706,6 +725,170 @@ hr {
         align-items: center;
         justify-content: center;
         margin-left: 0px;
+    }
+
+    .footer-section,
+    .social {
+        margin-left: 0px;
+    }
+}
+
+/* mobile device */
+@media screen and (max-width: 600px) {
+
+    /* Navigation Bar Section */
+    nav {
+        margin: auto;
+        max-width: 550px;
+        background-size: 100%;
+    }
+
+    .ul {
+        display: none;
+    }
+
+    .favicon {
+        display: block;
+        font-size: 24px;
+    }
+
+    /* Banner Section  */
+    .banner {
+        margin: auto;
+        max-width: 550px;
+        background-position: center;
+    }
+
+    .banner-index {
+        margin-top: 32px;
+        font-size: 24px;
+    }
+
+    .discription {
+        width: 500px;
+        font-size: 14px;
+    }
+
+    .search-option {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin: 32px auto 32px;
+    }
+
+    /* Populer Tours Section */
+    .popular-section {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        max-width: 550px;
+    }
+
+    /* Destinations Section */
+    .destination-image-1,
+    .destination-image-2,
+    .destination-image-3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 550px;
+        margin: 0px auto;
+    }
+
+    .destination-discription {
+        max-width: 550px;
+        margin: 16px auto;
+    }
+
+    .country-name-1,
+    .country-name-2,
+    .country-name-3,
+    .country-name-4,
+    .country-name-5,
+    .country-name-6,
+    .country-name-7 {
+        background-size: cover;
+        width: 550px;
+        background-position: center;
+    }
+
+    .destination-images {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: auto;
+        max-width: 550px;
+    }
+
+    /* Why Choose Us Section */
+    .hotel-map {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 550px;
+    }
+
+    .price {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .choose-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Newslater Section */
+    .news-section {
+        margin: 115px auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 550px;
+    }
+
+    .news-img {
+        width: 550px
+    }
+
+    .news-img img {
+        width: 550px;
+        margin: 0px auto;
+    }
+
+    .text-2 {
+        top: 48%;
+        left: 52%;
+    }
+
+    /* Bonus Section */
+    .featured {
+        flex-direction: column-reverse;
+        margin: 150px auto;
+        align-items: center;
+        max-width: 550px;
+        text-align: center;
+    }
+
+    /* Footer Section */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .footer-descrption {
+        width: 550px;
+
+    }
+
+    hr {
+        width: 550px;
     }
 
     .footer-section,
