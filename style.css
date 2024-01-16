@@ -6,11 +6,12 @@ body {
 
 /* Navigation Bar Section */
 nav {
-    margin-left: 128px;
-    margin-right: 128px;
+    width: 1170px;
+    margin: 0px 128px;
+    width: 1158px;
     display: flex;
     justify-content: space-between;
-    align-items: cester;
+    align-items: center;
 }
 
 .travel-logo {
@@ -22,7 +23,7 @@ nav {
 
 .logo {
     width: 48px;
-    height: 56.008px;
+    height: 56px;
 }
 
 .text {
@@ -30,23 +31,18 @@ nav {
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 
 .optional-bar {
-    margin-top: 53 px;
     display: flex;
     gap: 44px;
     list-style: none;
     color: #424247;
-    font-size: 18 px;
+    font-size: 18px;
+    padding: 0px;
 }
 
-.optional-bar-icon {
-    display: none;
-}
-
-.optional-bar .home {
+.home {
     color: #FF5400;
     font-weight: 700;
 }
@@ -111,6 +107,7 @@ nav {
     background: #FFF;
     font-size: 16px;
     width: 174px;
+    margin: 0px auto;
 }
 
 .search-button {
@@ -132,6 +129,7 @@ nav {
 /* Populer Tours Section */
 .popular-section {
     margin: 80px 128px;
+    width: 1170px;
     display: flex;
     gap: 32px;
 }
@@ -173,6 +171,8 @@ nav {
     font-weight: 800;
 }
 
+
+
 /* Destinations Section */
 .destination-header {
     color: #131318;
@@ -180,7 +180,6 @@ nav {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
     margin-bottom: 24px;
 }
 
@@ -197,6 +196,7 @@ nav {
 
 .destination-images {
     margin: 0px 128px;
+    width: 1170px;
 }
 
 .destination-images>div {
@@ -213,6 +213,7 @@ nav {
 .destination-image-3 {
     display: flex;
     gap: 16px;
+    width: 1158px;
 }
 
 .country-name-1 {
@@ -297,17 +298,7 @@ nav {
     border: 3px #FFF;
 }
 
-.country-name-1:hover,
-.country-name-2:hover,
-.country-name-3:hover,
-.country-name-4:hover,
-.country-name-5:hover,
-.country-name-6:hover,
-.country-name-7:hover {
-    border: 3px solid blueviolet;
-}
-
-/* Why Choose Us Section  */
+/* Why Choose Us Section */
 .choose-us-title {
     margin-top: 100px;
     color: #131318;
@@ -326,9 +317,11 @@ nav {
 
 .hotel-map {
     display: flex;
+    justify-content: center;
+    margin: 0px 128px;
     gap: 24px;
-    margin-left: 135px;
     margin-top: 48px;
+    width: 1158px;
 }
 
 .hotel {
@@ -397,8 +390,7 @@ nav {
 }
 
 .price {
-    margin-top: 24px;
-    margin-left: 433px;
+    margin: 24px auto 0px;
     width: 573px;
     height: 284px;
     border-radius: 16px;
@@ -432,11 +424,10 @@ nav {
 /* Bonus Section */
 .featured {
     display: flex;
-    gap: 96px;
-    margin-top: 150px;
-    margin-left: 100px;
+    gap: 50px;
+    margin: 150px 128px;
     align-items: center;
-
+    width: 1170px;
 }
 
 .featured button {
@@ -467,14 +458,15 @@ nav {
 
 /* Newslater Section */
 .news-section {
-    margin: 115px 135px;
+    margin: 115px 128px;
     display: flex;
     gap: 16px;
+    width: 1170px;
 }
 
 .news-context {
-    width: 28.10263rem;
-    height: 25.01963rem;
+    width: 474px;
+    height: 422px;
     border-radius: 0.94863rem;
     border: 0.949px solid #ff5400;
 }
@@ -489,13 +481,8 @@ nav {
 
 .news-img {
     width: 640px;
-    height: 400px;
+    height: 422px;
     position: relative;
-}
-
-.news-img img {
-    width: 100%;
-    height: 100%;
 }
 
 .text-2 {
@@ -579,6 +566,7 @@ footer {
 
 .footer-section {
     display: flex;
+    align-items: center;
     gap: 16px;
     padding-top: 116px;
     margin-left: 600px;
@@ -627,4 +615,101 @@ hr {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+
+/* Responsive media query style */
+/* dext top device */
+@media screen and (max-width: 992px) {
+
+    /* Navigation Bar Section */
+    nav {
+        margin: 20px;
+        width: 950px;
+        background-size: 100%;
+    }
+
+    /* Banner Section  */
+    .banner {
+        margin: 20px;
+        width: 950px;
+    }
+
+    /* Populer Tours Section */
+    .popular-section {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        width: 950px;
+    }
+
+    /* Destinations Section */
+    .destination-image-1,
+    .destination-image-2,
+    .destination-image-3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+    }
+
+    .destination-images {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 950px;
+    }
+
+    /* Why Choose Us Section */
+    .hotel-map {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 950px;
+    }
+
+    .price {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .choose-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Newslater Section */
+    .news-section {
+        margin: 115px 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+    }
+
+    /* Bonus Section */
+    .featured {
+        flex-direction: column-reverse;
+        margin: 150px 20px;
+        align-items: center;
+        width: 950px;
+        text-align: center;
+    }
+
+    /* Footer Section */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .footer-section,
+    .social {
+        margin-left: 0px;
+    }
 }
